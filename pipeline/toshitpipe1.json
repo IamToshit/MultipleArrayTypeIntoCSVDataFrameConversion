@@ -26,7 +26,11 @@
 						]
 					}
 				],
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "Y",
+					"value": "10"
+				}
 			},
 			{
 				"name": "Append variable2",
@@ -39,7 +43,11 @@
 						]
 					}
 				],
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "Z",
+					"value": "20"
+				}
 			}
 		],
 		"variables": {
