@@ -11,7 +11,7 @@
 		],
 		"variables": {
 			"timesnow": {
-				"type": "String"
+				"type": "Array"
 			}
 		},
 		"annotations": []
