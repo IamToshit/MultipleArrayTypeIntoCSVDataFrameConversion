@@ -1,6 +1,14 @@
 {
 	"name": "pipe1_copy",
 	"properties": {
+		"activities": [
+			{
+				"name": "copy file",
+				"type": "AppendVariable",
+				"dependsOn": [],
+				"userProperties": []
+			}
+		],
 		"annotations": []
 	}
 }
