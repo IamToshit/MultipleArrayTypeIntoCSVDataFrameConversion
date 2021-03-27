@@ -1,0 +1,9 @@
+{
+	"name": "testmumbai",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e48c6333-17ef-42f3-8c78-1929e92b83bb",
+		"tenantId": "3e2f63da-f02f-4b34-8fcb-106c18eeaecd"
+	}
+}
