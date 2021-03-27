@@ -1,14 +1,9 @@
 {
-	"name": "Binary1",
+	"name": "Binary2",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureBlobStorage1",
 			"type": "LinkedServiceReference"
-		},
-		"parameters": {
-			"filename": {
-				"type": "string"
-			}
 		},
 		"annotations": [],
 		"type": "Binary",
