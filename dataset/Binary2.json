@@ -11,7 +11,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": {
-					"value": "praveen.csv",
+					"value": "@concat('praveen','addminutes()')",
 					"type": "Expression"
 				},
 				"folderPath": "output",
