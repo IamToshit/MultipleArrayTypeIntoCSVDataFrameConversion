@@ -9,6 +9,11 @@
 				"userProperties": []
 			}
 		],
+		"variables": {
+			"timesnow": {
+				"type": "String"
+			}
+		},
 		"annotations": []
 	}
 }
