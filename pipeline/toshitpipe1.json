@@ -9,6 +9,11 @@
 				"userProperties": []
 			}
 		],
+		"variables": {
+			"X": {
+				"type": "Array"
+			}
+		},
 		"folder": {
 			"name": "toshit_adfpipe"
 		},
