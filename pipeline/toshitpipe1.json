@@ -10,7 +10,7 @@
 				"typeProperties": {
 					"variableName": "X",
 					"value": {
-						"value": "@utcnow()1",
+						"value": "abcd",
 						"type": "Expression"
 					}
 				}
