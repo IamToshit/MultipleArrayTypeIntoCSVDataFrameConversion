@@ -1,6 +1,14 @@
 {
 	"name": "toshitpipe1",
 	"properties": {
+		"activities": [
+			{
+				"name": "toshit_cp",
+				"type": "AppendVariable",
+				"dependsOn": [],
+				"userProperties": []
+			}
+		],
 		"folder": {
 			"name": "toshit_adfpipe"
 		},
