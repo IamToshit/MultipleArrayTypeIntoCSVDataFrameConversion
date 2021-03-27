@@ -45,6 +45,12 @@
 		"variables": {
 			"X": {
 				"type": "Array"
+			},
+			"Y": {
+				"type": "Array"
+			},
+			"Z": {
+				"type": "Array"
 			}
 		},
 		"folder": {
