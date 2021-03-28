@@ -134,9 +134,6 @@
 			},
 			"dict1": {
 				"type": "string"
-			},
-			"file1": {
-				"type": "string"
 			}
 		},
 		"folder": {
