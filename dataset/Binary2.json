@@ -14,7 +14,7 @@
 					"value": "@concat('praveen',utcnow())",
 					"type": "Expression"
 				},
-				"folderPath": "output",
+				"folderPath": "output2",
 				"container": "cona"
 			}
 		}
