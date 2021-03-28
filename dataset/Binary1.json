@@ -6,13 +6,13 @@
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"X": {
+			"container": {
 				"type": "string"
 			},
-			"Y": {
+			"dictionary": {
 				"type": "string"
 			},
-			"Z": {
+			"file": {
 				"type": "string"
 			}
 		},
@@ -20,9 +20,7 @@
 		"type": "Binary",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation",
-				"fileName": "*",
-				"container": "cona"
+				"type": "AzureBlobStorageLocation"
 			}
 		}
 	}
