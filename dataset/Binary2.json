@@ -11,7 +11,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": {
-					"value": "@concat('praveen',utcnow())",
+					"value": "test28",
 					"type": "Expression"
 				},
 				"folderPath": "output2",
