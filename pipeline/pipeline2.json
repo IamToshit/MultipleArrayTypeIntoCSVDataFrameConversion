@@ -82,7 +82,6 @@
 									"storeSettings": {
 										"type": "AzureBlobStorageReadSettings",
 										"recursive": true,
-										"wildcardFileName": "*.csv",
 										"deleteFilesAfterCompletion": false
 									},
 									"formatSettings": {
