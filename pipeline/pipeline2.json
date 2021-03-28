@@ -70,7 +70,21 @@
 				"typeProperties": {
 					"dataset": {
 						"referenceName": "Binary1",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"container": {
+								"value": "@pipeline().parameters.cont1",
+								"type": "Expression"
+							},
+							"dictionary": {
+								"value": "@pipeline().parameters.dict1",
+								"type": "Expression"
+							},
+							"file": {
+								"value": "@pipeline().parameters.file1",
+								"type": "Expression"
+							}
+						}
 					},
 					"fieldList": [],
 					"storeSettings": {
