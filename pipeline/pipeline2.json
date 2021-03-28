@@ -66,9 +66,34 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"dataset": {
+						"referenceName": "Binary1",
+						"type": "DatasetReference"
+					},
+					"fieldList": [],
+					"storeSettings": {
+						"type": "AzureBlobStorageReadSettings",
+						"enablePartitionDiscovery": false
+					},
+					"formatSettings": {
+						"type": "BinaryReadSettings"
+					}
+				}
 			}
 		],
+		"parameters": {
+			"cont1": {
+				"type": "string"
+			},
+			"dict1": {
+				"type": "string"
+			},
+			"file1": {
+				"type": "string"
+			}
+		},
 		"folder": {
 			"name": "toshit_adfpipe"
 		},
