@@ -10,10 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": {
-					"value": "test28",
-					"type": "Expression"
-				},
 				"folderPath": "output2",
 				"container": "cona"
 			}
