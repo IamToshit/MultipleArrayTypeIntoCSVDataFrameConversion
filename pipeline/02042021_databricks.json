@@ -24,7 +24,10 @@
 				"typeProperties": {
 					"notebookPath": "/myworkbook1",
 					"baseParameters": {
-						"X": "5",
+						"X": {
+							"value": "@activity('Lookup1').output.firstRow.Prop_1",
+							"type": "Expression"
+						},
 						"Y": "10"
 					}
 				},
