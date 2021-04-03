@@ -1,0 +1,69 @@
+{
+	"name": "toshitpipe1",
+	"properties": {
+		"activities": [
+			{
+				"name": "toshit_cp",
+				"type": "AppendVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "X",
+					"value": {
+						"value": "abcd",
+						"type": "Expression"
+					}
+				}
+			},
+			{
+				"name": "Append variable1",
+				"type": "AppendVariable",
+				"dependsOn": [
+					{
+						"activity": "toshit_cp",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "Y",
+					"value": "10"
+				}
+			},
+			{
+				"name": "Append variable2",
+				"type": "AppendVariable",
+				"dependsOn": [
+					{
+						"activity": "toshit_cp",
+						"dependencyConditions": [
+							"Failed"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "Z",
+					"value": "20"
+				}
+			}
+		],
+		"variables": {
+			"X": {
+				"type": "Array"
+			},
+			"Y": {
+				"type": "Array"
+			},
+			"Z": {
+				"type": "Array"
+			}
+		},
+		"folder": {
+			"name": "toshit_adfpipe"
+		},
+		"annotations": []
+	}
+}
